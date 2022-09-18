@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* this is the universial selector for CSS */
 }
 
 body {
     background-color: #d9dcd6;
+    /*  this selects all of the element type */
 }
 
 .header {
@@ -13,15 +15,18 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* this gives text font, size and color */
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    /* this keeps all list items in live with the main title of the page */
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    /* this gives color of the text */
 }
 
 .header div {
@@ -30,24 +35,29 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    /* this give text font style and size  */
 }
 
 .header div ul {
     list-style-type: none;
+    /* this give the list as to what type is needs to be which is none */
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    /* this tells the list to be in line next to eachother */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    /* this is what color the href needs to be */
 }
 
 p {
     font-size: 16px;
+    /* size of the paragraphs */
 }
 
 .hero {
@@ -57,22 +67,26 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* this is the large photo in the center of the page, used title in the html doc to give it a title for accessability */
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
+    /* this puts the photo to the left of the text and gives a margin to the text so there is space between the photo and text */
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+     /* this puts the photo to the right of the text and gives a margin to the text so there is space between the photo and text */
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* this puts the colum of of text with lead generation, brand awareness and cost management next to the other boxes with text .  */
 }
 
 .benefits {
@@ -84,54 +98,64 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* this is font style, size and box size. this is the section on the website for benefits */
 }
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    /* this give a margin between the text and other photos as well as color of the text */
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    /* this give a margin between the text and other photos as well as color of the text */
 }
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    /* this give a margin between the text and other photos as well as color of the text */
 }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* this centers the title */
 }
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* this centers the title */
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* this centers the title */
 }
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /* this centers the photo and gives it a max size  */
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+     /* this centers the photo and gives it a max size  */
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+     /* this centers the photo and gives it a max size  */
 }
 
 .search-engine-optimization {
@@ -141,6 +165,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /* this give the search engine its own box with text and a blue background */
 }
 
 .online-reputation-management {
@@ -150,6 +175,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /* this give the online reputation its own box with text and a blue background */
 }
 
 .social-media-marketing {
@@ -159,33 +185,41 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+     /* this give the social media its own box with text and a blue background */
 }
 
 .search-engine-optimization img {
     max-height: 200px;
+    /* this give the photo the max height */
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    /* this give the photo the max height */
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    /* this give the photo the max height */
 }
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* this give a margin between the paragraph and title font size */
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* this give a margin between the paragraph and title font size */
+
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* this give a margin between the paragraph and title font size */
 }
 
 .footer {
@@ -193,8 +227,10 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /* this gives the footer its own font and centers the text */
 }
 
 .footer h2 {
     font-size: 20px;
+    /* this give the font size of the footer. */
 }
