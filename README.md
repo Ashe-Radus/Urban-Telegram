@@ -22,6 +22,6 @@ when applications likes all function correctly
 then CSS selectors and properties are consolidated and organized to follow semantic structure
 then CSS file is properly commented
 
-The following image shows the web application's appearance and functionality:
+the link to the deployed application: 
 
 
